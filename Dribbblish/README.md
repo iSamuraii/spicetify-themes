@@ -19,17 +19,29 @@
 #### Nord-Light
 ![demo6](./nord-light.png)
 
-#### Solarized Dark
-![demoSolarizedDark](./solarized-dark.png)
-
-#### Solarized Light
-![demoSolarizedLight](./solarized-light.png)
-
 #### Samouraï
 ![demoSamourai](./samourai.png)
 
 #### Ashes
 ![demoAshes](./ashes.png)
+
+#### Atlas
+![demoAtlas](./atlas.png)
+
+#### Brogrammer
+![demoBrogrammer](./brogrammer.png)
+
+#### Outrun Dark
+![demoOutrunDark](./outrun-dark.png)
+
+#### Rebecca
+![demoRebecca](./rebecca.png)
+
+#### Solarized Dark
+![demoSolarizedDark](./solarized-dark.png)
+
+#### Solarized Light
+![demoSolarizedLight](./solarized-light.png)
 
 ## More
 ### How to install
@@ -60,7 +72,9 @@ spicetify apply
 Windows user, please edit your Spotify shortcut and add flag `--transparent-window-controls` after the Spotify.exe:
 ![instruction1](./windows-shortcut-instruction.png)
 
-There are 10 color schemes you can choose: `base`, `white`, `dark`, `dracula`, `nord-dark`, `nord-light`, `solarized-dark`, `solarized-light`, `samourai`, `ashes`. Change scheme with commands:
+There are 10 color schemes you can choose: `base`, `white`, `dark`, `dracula`, `nord-dark`, `nord-light`, `samourai`.
+There are also these base16 colorschemes: `ashes`, `atlas`, `brogrammer`, `outrun-dark`, `rebecca`, `solarized-dark`, `solarized-light`
+Change scheme with commands:
 ```
 spicetify config color_scheme <scheme name>
 spicetify apply
