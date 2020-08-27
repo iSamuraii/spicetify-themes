@@ -13,6 +13,9 @@
 #### Dracula
 ![demo4](./dracula.png)
 
+#### Gruvbox
+![demoGruvbox](./gruvbox.png)
+
 #### Nord-Dark
 ![demo5](./nord-dark.png)
 
@@ -49,7 +52,10 @@
 ![demo8](./purple.png)
 
 ## More
+Requires spicetify-cli **v0.9.9 or newer**.
+
 ### How to install
+
 Run these command:
 
 #### Linux and MacOS:
@@ -85,11 +91,19 @@ Moreover, by default, Spotify adjusted sidebar items and profile menu icon to st
 ![nocontrol](https://i.imgur.com/qdZyv1t.png)
 
 ### Color Schemes
-There are 9 color schemes you can choose: `base`, `white`, `dark`, `dracula`, `nord-dark`, `nord-light`, `horizon`, `samourai`, `purple`. 
+There are 9 color schemes you can choose: `base`, `white`, `dark`, `dracula`, `gruvbox`, `nord-dark`, `nord-light`, `horizon`, `samourai`, `purple`. Change scheme with commands:
 There are also these base16 colorschemes: `ashes`, `atlas`, `brogrammer`, `outrun-dark`, `rebecca`, `solarized-dark`, `solarized-light`
-Change scheme with commands:
 ```
 spicetify config color_scheme <scheme name>
+spicetify apply
+```
+
+# How to uninstall 
+
+Remove the dribbblish script with the following commands 
+
+```
+spicetify config extensions dribbblish.js-
 spicetify apply
 ```
 
