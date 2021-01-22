@@ -11,7 +11,7 @@
 }
 
 div#popover-container::before {
-    content: "You haven't installed 'dribbblish.js' extension. Please run follow instruction on theme README page.";
+    content: "You haven't installed 'dribbblish.js' extension. Please follow instructions on theme README page.";
     font-size: 30px;
 }
 
@@ -645,6 +645,10 @@ body.remotebar .view-player .player-bar-wrapper {
 	margin-top: calc(var(--os-windows-icon-dodge) * 30px);
 }
 
+.body-container--mac .LeftSidebar {
+    margin-top: 24px;
+}
+
 .RootlistItem--is-active:before {
     top: 3px;
 }
@@ -1099,6 +1103,7 @@ body.video-full-screen .view-player .player-controls-container .progress-contain
     flex: 2 1;
     order: 2;
     min-width: 0;
+    max-width: none !important;
 }
 
 .view-player .now-playing-container .caption {

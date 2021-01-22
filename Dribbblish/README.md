@@ -13,6 +13,9 @@
 #### Dracula
 ![demo4](./dracula.png)
 
+#### Dracula2
+![demoDracula2](./dracula2.png)
+
 #### Gruvbox
 ![demoGruvbox](./gruvbox.png)
 
@@ -48,6 +51,10 @@
 
 #### Solarized Light
 ![demoSolarizedLight](./solarized-light.png)
+=======
+#### Beach-Sunset
+![demo7](./beach-sunset.png)
+
 #### Purple
 ![demo8](./purple.png)
 
@@ -56,7 +63,7 @@ Requires spicetify-cli **v0.9.9 or newer**.
 
 ### How to install
 
-Run these command:
+Run these commands:
 
 #### Linux and MacOS:
 In **Bash**:
